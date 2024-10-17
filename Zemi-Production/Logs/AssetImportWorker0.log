@@ -16,6 +16,7 @@ C:/Users/hayat/RiderProjects/Zemi-Production/Zemi-Production
 Logs/AssetImportWorker0.log
 -srvPort
 51268
+
 Successfully changed project path to: C:/Users/hayat/RiderProjects/Zemi-Production/Zemi-Production
 C:/Users/hayat/RiderProjects/Zemi-Production/Zemi-Production
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,9 +50,10 @@ C:/Users/hayat/RiderProjects/Zemi-Production/Zemi-Production
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [92700] Host "[IP] 192.168.247.139 [Port] 0 [Flags] 2 [Guid] 2317270167 [EditorId] 2317270167 [Version] 1048832 [Id] WindowsEditor(7,¼‰h—El) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [92700] Host "[IP] 192.168.247.139 [Port] 0 [Flags] 2 [Guid] 2317270167 [EditorId] 2317270167 [Version] 1048832 [Id] WindowsEditor(7,¼‰h—El) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [92700] Host "[IP] 192.168.247.139 [Port] 0 [Flags] 2 [Guid] 2317270167 [EditorId] 2317270167 [Version] 1048832 [Id] WindowsEditor(7,ÂÂ¼â€°hâ€”EÂl) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [92700] Host "[IP] 192.168.247.139 [Port] 0 [Flags] 2 [Guid] 2317270167 [EditorId] 2317270167 [Version] 1048832 [Id] WindowsEditor(7,ÂÂ¼â€°hâ€”EÂl) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
 Refreshing native plugins compatible for Editor in 2495.04 ms, found 11 plugins.
@@ -227,7 +229,7 @@ Received Import Request.
   artifactKey: Guid(a01d6f2ae1bc8374ca97f234455457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/BossPara.cs using Guid(a01d6f2ae1bc8374ca97f234455457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96db60a2f5287c44449051e10fde4ab4') in 0.003184 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -330,7 +332,15 @@ Received Import Request.
   artifactKey: Guid(a01d6f2ae1bc8374ca97f234455457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/BossParameters.cs using Guid(a01d6f2ae1bc8374ca97f234455457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ff23658c3417d645563ba34800c007') in 0.003224 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_error_greybg.png
+  artifactKey: Guid(d0390c3a10ac76641b718f04d77f80ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_error_greybg.png using Guid(d0390c3a10ac76641b718f04d77f80ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad633d3488a2deeeea3cf4dc7ea3f8c3') in 0.025191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -544,7 +554,63 @@ Received Import Request.
   artifactKey: Guid(a01d6f2ae1bc8374ca97f234455457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Parameters/BossParameters.cs using Guid(a01d6f2ae1bc8374ca97f234455457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f80d9226e7551eec4185b6aece1da1') in 0.004771 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.testtools.codecoverage/Editor/Icons/CodeCoverage@2x.png
+  artifactKey: Guid(37164f8d49df70f448b593fa86e488f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/Editor/Icons/CodeCoverage@2x.png using Guid(37164f8d49df70f448b593fa86e488f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533a1e8cad1b62b53b8cd0c0bfb631b4') in 0.017229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_icon_hidden.png
+  artifactKey: Guid(a787c8e4775ddb64496bcf4a995fd61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_icon_hidden.png using Guid(a787c8e4775ddb64496bcf4a995fd61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9bc802576aa8a8600efb87fbdf6ae2') in 0.020529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_icon_bbw.png
+  artifactKey: Guid(1d18a06dac3e3214b8be0fc6d1539131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_icon_bbw.png using Guid(1d18a06dac3e3214b8be0fc6d1539131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01e24aea268624525a38d144a69762a') in 0.016699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.meta.xr.sdk.core/Materials/OVRHandRaySelected.mat
+  artifactKey: Guid(64bd7edbafa17d24383f5cab92452c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Materials/OVRHandRaySelected.mat using Guid(64bd7edbafa17d24383f5cab92452c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef23be07f6b7b5b045d786f7dfe0d28c') in 0.295845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 689.831341 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/ControllerTracking/Textures/bb_thumb_controllertracking.jpg
+  artifactKey: Guid(7fb9c19c262a3bf4884528a7804f8ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/ControllerTracking/Textures/bb_thumb_controllertracking.jpg using Guid(7fb9c19c262a3bf4884528a7804f8ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0930cb87b5285b1d97edd4ee7a6bdc6c') in 0.018713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.355020 seconds.
+  path: Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPro/controller_l_lo_Normal.png
+  artifactKey: Guid(2771258a413ee134ab18726bc0362e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPro/controller_l_lo_Normal.png using Guid(2771258a413ee134ab18726bc0362e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71766f5d5862ada86a4bd64fd5e6d0b') in 0.059629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPro/controller_r_lo_BaseColor.png
+  artifactKey: Guid(9f1871411a4175a49a72069635000987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Textures/MetaQuestTouchPro/controller_r_lo_BaseColor.png using Guid(9f1871411a4175a49a72069635000987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a767129666d347da0d708d399b4afe') in 0.024014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 14.396844 seconds.
@@ -554,9 +620,18 @@ Start importing Assets/Scripts/Parameters/BossParameters.cs using Guid(a01d6f2ae
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Controllers.prefab
+  artifactKey: Guid(ad9b966cab9674348856e3325c3cb4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Prefabs/Controllers.prefab using Guid(ad9b966cab9674348856e3325c3cb4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a797d2201acfc4e25ab09f7eb00072') in 0.003357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
+
 - Loaded All Assemblies, in  0.838 seconds
 Refreshing native plugins compatible for Editor in 21.24 ms, found 11 plugins.
 Native extension for WindowsStandalone target not found
@@ -590,9 +665,11 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+
 - Finished resetting the current domain, in  1.868 seconds
 Domain Reload Profiling: 2700ms
 	BeginReloadAssembly (210ms)
+
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
@@ -3023,6 +3100,7 @@ Unloading 5295 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 61 unused Assets / (51.5 KB). Loaded Objects now: 5924.
 Memory consumption went from 235.4 MB to 235.3 MB.
 Total: 4.484100 ms (FindLiveObjects: 0.462700 ms CreateObjectMapping: 0.246900 ms MarkObjects: 3.633000 ms  DeleteObjects: 0.140300 ms)
+
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
