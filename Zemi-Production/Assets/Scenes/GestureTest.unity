@@ -310,6 +310,9 @@ MonoBehaviour:
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
   instanceId: d6b56c0e-c213-40bc-8440-413e23d83d97
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &11380529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1932,6 +1935,9 @@ MonoBehaviour:
   blockId: 6b67162c-2460-4766-a931-980388647573
   instanceId: 195fb4c4-b494-4c77-b104-82d4cb193c7a
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &197557631
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,6 +2896,9 @@ MonoBehaviour:
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
   instanceId: 2e4abae1-7863-4a04-bb63-936f26f26e0b
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &338120594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2936,9 +2945,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hand: {fileID: 192422670}
-  _skinnedMeshRenderer: {fileID: 428256290}
   _updateRootPose: 1
   _updateRootScale: 1
+  _updateVisibility: 1
+  _skinnedMeshRenderer: {fileID: 428256290}
   _root: {fileID: 0}
   _handMaterialPropertyBlockEditor: {fileID: 428256289}
   _jointTransforms:
@@ -3049,9 +3059,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hand: {fileID: 469031878}
-  _skinnedMeshRenderer: {fileID: 1550117617}
   _updateRootPose: 1
   _updateRootScale: 1
+  _updateVisibility: 1
+  _skinnedMeshRenderer: {fileID: 1550117617}
   _root: {fileID: 0}
   _handMaterialPropertyBlockEditor: {fileID: 1550117616}
   _jointTransforms:
@@ -4352,6 +4363,9 @@ MonoBehaviour:
   blockId: 6b67162c-2460-4766-a931-980388647573
   instanceId: ab4f29ae-700e-499c-bfa5-301f77370f6d
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &472476804
 GameObject:
   m_ObjectHideFlags: 0
@@ -4757,6 +4771,9 @@ MonoBehaviour:
   blockId: 0393ca30-f2a9-4865-a40f-f9a68d01c3a9
   instanceId: 25466e48-d9dc-430c-8530-bfcdb262483e
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &511516593
 GameObject:
   m_ObjectHideFlags: 0
@@ -5380,6 +5397,9 @@ MonoBehaviour:
   blockId: bac08eda-400f-4f61-8842-77e7699e068d
   instanceId: 3f424e96-120e-4d50-85c7-5aea7adb4605
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!4 &595204608
 Transform:
   m_ObjectHideFlags: 8
@@ -5737,6 +5757,9 @@ MonoBehaviour:
   blockId: 8b26b298-7bf4-490e-b245-a039c0184303
   instanceId: 64c951a3-b390-433a-aa24-5896bd4ae2b1
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &625266776
 GameObject:
   m_ObjectHideFlags: 0
@@ -10888,6 +10911,9 @@ MonoBehaviour:
   blockId: 5817f7c0-f2a5-45f9-a5ca-64264e0166e8
   instanceId: afe86382-ce25-4d0c-b54c-ca95e1c21084
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &1183147153
 GameObject:
   m_ObjectHideFlags: 0
@@ -10949,7 +10975,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1646451878}
   m_Father: {fileID: 640921955}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &1188118901
@@ -12378,6 +12405,7 @@ MonoBehaviour:
   mrcActivationMode: 0
   launchSimultaneousHandsControllersOnStartup: 0
   isInsightPassthroughEnabled: 0
+  shouldBoundaryVisibilityBeSuppressed: 0
   requestBodyTrackingPermissionOnStartup: 0
   requestFaceTrackingPermissionOnStartup: 0
   requestEyeTrackingPermissionOnStartup: 0
@@ -12426,6 +12454,9 @@ MonoBehaviour:
   blockId: e47682b9-c270-40b1-b16d-90b627a5ce1b
   instanceId: 8c0db9b4-ac23-4c9a-a28a-b244c3a7fdac
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!4 &1326739290
 Transform:
   m_ObjectHideFlags: 0
@@ -12439,7 +12470,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1646451878}
   - {fileID: 640921955}
   - {fileID: 1354705025}
   m_Father: {fileID: 0}
@@ -12679,6 +12709,9 @@ MonoBehaviour:
   blockId: 81f55626-5fad-45e9-a1df-184f330da7ba
   instanceId: 784ef2c5-a5f7-49a1-ad0c-4cec1dce41fc
   version: 1
+  installationRoutineCheckpoint:
+    _installationRoutineId: 
+    _installationVariants: []
 --- !u!1 &1354873824
 GameObject:
   m_ObjectHideFlags: 0
@@ -13018,7 +13051,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Goo
+          m_StringArgument: Lock
           m_BoolArgument: 0
         m_CallState: 2
   _whenDeactivated:
@@ -15334,7 +15367,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1377361129}
-  m_Father: {fileID: 1326739290}
+  m_Father: {fileID: 1188118900}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -18735,7 +18768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7846399327952623464, guid: 467811dd77616db4fbfe87986b86b275, type: 3}
       propertyPath: m_Name
-      value: Goo
+      value: Lock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
